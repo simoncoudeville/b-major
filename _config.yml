@@ -2,9 +2,6 @@
 title: B Major
 timezone: UTC
 collections:
-  locations:
-    title: Locations
-    output: true
   posts:
     title: Posts
     output: true
@@ -24,3 +21,11 @@ defaults:
   values:
     layout: page
 permalink: pretty
+
+# Site navigation
+navigation:
+  - title: about
+    url: /about
+
+# Exclude these files from the build process
+exclude: ['_site','scss','*scss','Gem*','Guard*','*rb','.sass-cache','.git*','config.rb','README.md','*.json','docroot','node_modules','gulpfile.js','install.sh','lint.yml']
