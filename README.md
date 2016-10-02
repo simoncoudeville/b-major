@@ -1,7 +1,9 @@
-Chopstick Boilerplate
+B Major
 =====================
 
-By [these people](https://github.com/getchopstick/chopstick-boilerplate/graphs/contributors)
+This is the codebase for [bmajor.be](http://bmajor.be).
+
+It's made with [Chopstick](https://github.com/getchopstick/chopstick-boilerplate).
 
 [Chopstick Boilerplate](https://github.com/getchopstick/chopstick-boilerplate) creates a structure and gives you the tools that allow you to easily design bespoke web projects.
 
