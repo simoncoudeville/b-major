@@ -32,6 +32,12 @@ defaults:
   values:
     layout: page
     image: ''
+- scope:
+    path: ''
+    type: locations
+  values:
+    layout: page
+    image: ''
 permalink: pretty
 navigation:
 - title: about
