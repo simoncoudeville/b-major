@@ -1,20 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Meta data
-title: 'Chopstick'
-author: ''
-description: 'Chopstick is a framework based on the ITCSS architecture and a series of principles. It creates a structure to easily set-up and build bespoke web projects.'
-
-# Site navigation
-navigation:
-  - title: about
-    url: /about
-
-# Exclude these files from the build process
-exclude: ['_site','scss','*scss','Gem*','Guard*','*rb','.sass-cache','.git*','config.rb','README.md','*.json','docroot','node_modules','gulpfile.js','install.sh','lint.yml']
-permalink: 'pretty'
+---
+title: B Major
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
