@@ -26,6 +26,12 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: concerts
+  values:
+    layout: page
+    image: ''
 permalink: pretty
 navigation:
 - title: about
