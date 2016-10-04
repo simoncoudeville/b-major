@@ -60,6 +60,17 @@ exclude:
 - install.sh
 - lint.yml
 gems:
-  - jekyll-multiple-languages-plugin
-languages: ["nl", "en"]
-exclude_from_localizations: ["scss", "css", "img", "js", "vendor", "uploads", "apple-touch-icon-precomposed.png", "favicon.ico", "favicon.png"]
+- jekyll-multiple-languages-plugin
+languages:
+- nl
+- en
+exclude_from_localizations:
+- scss
+- css
+- img
+- js
+- vendor
+- uploads
+- apple-touch-icon-precomposed.png
+- favicon.ico
+- favicon.png
