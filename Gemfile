@@ -8,4 +8,5 @@ group :development do
 
     # Jekyll
     gem 'jekyll', '~> 3.2', '>= 3.2.1'
+    gem 'jekyll-multiple-languages-plugin'
 end
