@@ -49,13 +49,13 @@ navigation:
 - section: about
   title: over
   title_en: about
-  url: /over
-  url_en: /en/about
+  url: "/over"
+  url_en: "/en/about"
 - section: title
   title: titel
   title_en: title
-  url: /titel
-  url_en: /en/title
+  url: "/titel"
+  url_en: "/en/title"
 exclude:
 - _site
 - scss
