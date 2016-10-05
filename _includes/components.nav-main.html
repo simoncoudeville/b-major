@@ -13,6 +13,12 @@
             </a>
         </li>
         {% endfor %}
+        <li class="c-nav-main__item{% if site.lang == "en" %} is-selected{% endif %}">
+            <a href="/en" class="c-nav-main__link">en</a>
+        </li>
+        <li class="c-nav-main__item{% if site.lang == "nl" %} is-selected{% endif %}">
+            <a href="/" class="c-nav-main__link">nl</a>
+        </li>
     </ul>
 </nav>
 
