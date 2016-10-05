@@ -1,7 +1,7 @@
 ---
 title: Over
-title_en: About
 permalink: "/over/"
+title_en: About
 permalink_en: "/about/"
 en_body: |-
   # About B Major
