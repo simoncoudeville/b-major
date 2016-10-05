@@ -45,8 +45,11 @@ defaults:
     image: ''
 permalink: pretty
 navigation:
-- title: about
-  url: "/about"
+- section: about
+  title: over
+  title_en: about
+  url: "over"
+  url_en: "about"
 exclude:
 - _site
 - scss

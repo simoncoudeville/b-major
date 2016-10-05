@@ -1,3 +1,5 @@
-pages:
-  home: Home
-  about: Over
+navigation:
+- title: over
+  url: "/over"
+- title: titel
+  url: "/titel"

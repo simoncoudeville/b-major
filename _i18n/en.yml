@@ -1,3 +1,5 @@
-pages:
-  home: Home
-  about: About
+navigation:
+- title: about
+  url: "/en/about"
+- title: title
+  url: "/en/title"

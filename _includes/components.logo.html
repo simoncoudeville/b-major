@@ -1,6 +1,6 @@
 {% if page.section != 'home' %}
     <p class="c-logo">
-        <a href="/" class="c-logo__link">
+        <a href="{% if site.lang == "en" and item.url_en != blank %}/en{% else %}/{% endif %}" class="c-logo__link">
 {% else %}
     <h1 class="c-logo">
 {% endif %}
