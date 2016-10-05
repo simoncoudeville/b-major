@@ -50,6 +50,11 @@ navigation:
   title_en: about
   url: over
   url_en: about
+- section: title
+  title: titel
+  title_en: title
+  url: titel
+  url_en: title
 exclude:
 - _site
 - scss
