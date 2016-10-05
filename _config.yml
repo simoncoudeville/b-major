@@ -28,6 +28,9 @@ defaults:
     type: pages
   values:
     layout: page
+    title_en: ''
+    permalink_en: ''
+    en_body: ''
 - scope:
     path: ''
     type: concerts
