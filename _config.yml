@@ -5,8 +5,8 @@ collections:
   concerts:
     title: Concerts
     output: true
-    permalink: /concerten/
-    permalink_en: /concerts/
+    permalink: "/concerten/"
+    permalink_en: "/concerts/"
   posts:
     title: Posts
     output: true
