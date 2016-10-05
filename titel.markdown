@@ -1,4 +1,5 @@
 ---
+section: title
 title: Titel
 date: 2016-10-05 19:09:00 Z
 permalink: "/titel/"
