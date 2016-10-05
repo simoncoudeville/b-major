@@ -1,8 +1,8 @@
 ---
-section: title
 title: Titel
 date: 2016-10-05 19:09:00 Z
 permalink: "/titel/"
+section: title
 title_en: title
 permalink_en: "/title/"
 en_body: |-
