@@ -48,8 +48,8 @@ navigation:
 - section: about
   title: over
   title_en: about
-  url: "over"
-  url_en: "about"
+  url: over
+  url_en: about
 exclude:
 - _site
 - scss

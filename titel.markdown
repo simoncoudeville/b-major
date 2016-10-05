@@ -1,8 +1,8 @@
 ---
 title: Titel
 date: 2016-10-05 19:09:00 Z
-title_en: title
 permalink: "/titel/"
+title_en: title
 permalink_en: "/title/"
 en_body: |-
   # Test title
