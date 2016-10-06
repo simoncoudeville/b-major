@@ -72,7 +72,6 @@ exclude:
 - install.sh
 - lint.yml
 gems:
-- jekyll
 - jekyll-multiple-languages-plugin
 languages:
 - nl
