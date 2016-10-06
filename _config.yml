@@ -34,8 +34,10 @@ defaults:
     path: ''
     type: concerts
   values:
+    title_en: ''
     layout: page
     image: ''
+    permalink: "/:title/"
 - scope:
     path: ''
     type: locations
