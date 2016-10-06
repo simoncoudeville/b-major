@@ -35,9 +35,11 @@ defaults:
     type: concerts
   values:
     title_en: ''
+    en_body: ''
     layout: page
     image: ''
     permalink: "/:title/"
+    section: line-up
 - scope:
     path: ''
     type: locations

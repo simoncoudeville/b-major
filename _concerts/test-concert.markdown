@@ -1,4 +1,5 @@
 ---
+section: line-up
 title: Test concert nl
 title_en: Test concert en
 date: 2016-10-02 20:50:00 Z
