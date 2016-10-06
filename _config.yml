@@ -2,10 +2,9 @@
 title: B Major
 timezone: UTC
 collections:
-  concerten:
+  concerts:
     title: Concerts
     output: true
-    path_en: concerts
   posts:
     title: Posts
     output: true
