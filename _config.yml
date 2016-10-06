@@ -2,7 +2,7 @@
 title: B Major
 timezone: UTC
 collections:
-  concerts:
+  concerten:
     title: Concerts
     output: true
   posts:
