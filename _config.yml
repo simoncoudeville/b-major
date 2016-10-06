@@ -5,6 +5,7 @@ collections:
   concerten:
     title: Concerts
     output: true
+    path_en: concerts
   posts:
     title: Posts
     output: true
