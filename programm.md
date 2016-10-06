@@ -1,9 +1,9 @@
 ---
+title: Programma
+permalink: "/programma/"
 section: line-up
 layout: line-up
-title: Programma
 title_en: line-up
-permalink: "/programma/"
 permalink_en: "/line-up/"
 ---
 
