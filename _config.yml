@@ -49,11 +49,11 @@ navigation:
   title_en: about
   url: "/over"
   url_en: "/en/about"
-- section: title
-  title: titel
-  title_en: title
-  url: "/titel"
-  url_en: "/en/title"
+- section: line-up
+  title: programma
+  title_en: line-up
+  url: "/programma"
+  url_en: "/en/line-up"
 exclude:
 - _site
 - scss
@@ -72,6 +72,7 @@ exclude:
 - install.sh
 - lint.yml
 gems:
+- jekyll
 - jekyll-multiple-languages-plugin
 languages:
 - nl
