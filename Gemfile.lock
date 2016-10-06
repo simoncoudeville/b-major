@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     colorator (1.1.0)
     ffi (1.9.14)
@@ -43,7 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.2, >= 3.2.1)
+  jekyll
   jekyll-multiple-languages-plugin
   scss_lint
 
