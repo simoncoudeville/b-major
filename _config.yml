@@ -34,12 +34,13 @@ defaults:
     path: ''
     type: concerts
   values:
-    title_en: ''
-    en_body: ''
-    layout: page
+    location: ''
+    ref: ''
+    lang: ''
     image: ''
-    permalink: "/:title/"
     section: line-up
+    layout: page
+    permalink: "/:title/"
 - scope:
     path: ''
     type: locations

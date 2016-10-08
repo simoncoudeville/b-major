@@ -17,11 +17,7 @@
         <div class="o-container">
             <div class="o-grid o-grid--gutter c-main-row">
                 <div class="o-grid__item">
-                {% if site.lang == "en" and page.en_body != blank %}
-                  {{ page.en_body | markdownify }}
-                {% else %}
                   {{ content }}
-                {% endif %}
                 </div>
             </div>
         </div>

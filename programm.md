@@ -6,7 +6,11 @@ layout: line-up
 title_en: line-up
 permalink_en: "/line-up/"
 ---
-
-{% for concert in site.concerts %}
-  <h2>{% if site.lang == "en" and concert.title_en != blank %}{{ concert.title_en }}{% else %}{{ concert.title }}{% endif %}</h2>
+{% assign concerts=site.concerts | where:"lang", site.lang %}
+{% for concert in concerts %}
+  <h2>
+    <a href="{{ site.baseurl }}{{ concert.url }}">
+        {{ concert.title }}
+    </a>
+  </h2>
 {% endfor %}
