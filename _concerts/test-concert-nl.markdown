@@ -1,10 +1,10 @@
 ---
 title: Test concert nl
 location: ''
-ref: 'test-concert'
-lang: 'nl'
-image: ''        
-section: line-up    
+ref: test-concert
+lang: nl
+image: ''
+section: line-up
 layout: page
 ---
 

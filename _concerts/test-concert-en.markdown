@@ -1,12 +1,11 @@
 ---
 title: Test concert en
 location: ''
-ref: 'test-concert'
-lang: 'en'
-image: ''        
-section: line-up    
+ref: test-concert
+lang: en
+image: ''
+section: line-up
 layout: page
-
 ---
 
 # Test Concert en
