@@ -1,9 +1,9 @@
 ---
 title: Test concert en
-location: ''
+location: Magdalenazaal
 ref: test-concert
 lang: en
-image: ''
+image: "/uploads/home-2.jpg"
 section: line-up
 layout: page
 ---
