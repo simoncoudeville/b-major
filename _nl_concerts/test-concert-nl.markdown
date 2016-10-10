@@ -1,11 +1,11 @@
 ---
-title: Test concert nl
+title: Test concert nl 2
 location: Magdalenazaal
-ref: test-concert
 lang: nl
 image: "/uploads/home-2.jpg"
 section: line-up
-concert date: 2017-03-01 20:00:00 Z
+concert date: 2017-03-01 21:00:00 Z
+ref: test-concert
 layout: page
 ---
 
