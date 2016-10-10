@@ -43,6 +43,7 @@ defaults:
     permalink: "/:title/"
     prijs: ''
     partner: ''
+    concert date: ''
 - scope:
     path: ''
     type: locations
