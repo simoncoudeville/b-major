@@ -4,12 +4,14 @@ layout: default
 section: home
 lang: nl
 ---
+{% assign language = page.lang %}
+{% assign t = site.data.i18n_strings %}
 
 <div class="c-row c-row--alpha">
     <div class="o-container">
         <section class="o-grid o-grid--gutter">
             <div class="o-grid__item">
-                <h1>Chopstick Boilerplate</h1>
+                <h1>Chopstick Boilerplate {{ t['submit'][language] }}</h1>
                 <p class="tagline">// The lightweight, responsive, plug &amp; play design framework</p>
             </div>
         </section>
