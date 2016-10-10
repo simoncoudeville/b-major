@@ -3,11 +3,11 @@ title: B Major
 timezone: UTC
 collections:
   en_concerts:
-    title: En Concerts
+    title: EN Concerts
     output: true
     permalink: "/en/line-up/:path/"
   nl_concerts:
-    title: Nl Concerts
+    title: NL Concerts
     output: true
     permalink: "/programma/:path/"
   posts:
