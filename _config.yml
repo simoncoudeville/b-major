@@ -1,10 +1,28 @@
 ---
 title: B Major
 timezone: UTC
+# gems:
+# - jekyll-multiple-languages-plugin
+# languages:
+# - nl
+# - en
+# exclude_from_localizations:
+# - scss
+# - css
+# - img
+# - js
+# - vendor
+# - uploads
+# - apple-touch-icon-precomposed.png
+# - favicon.ico
+# - favicon.png
 collections:
-  concerts:
-    title: Concerts
+  nl_concerts:
     output: true
+    permalink: /programma/:path/
+  en_concerts:
+    output: true
+    permalink: /en/line-up/:path/
   posts:
     title: Posts
     output: true
@@ -32,15 +50,25 @@ defaults:
     en_body: ''
 - scope:
     path: ''
-    type: concerts
+    type: nl_concerts
   values:
     location: ''
-    ref: ''
     lang: ''
     image: ''
     section: line-up
     layout: page
-    permalink: "/:title/"
+    prijs: ''
+    partner: ''
+    concert date: ''
+- scope:
+    path: ''
+    type: en_concerts
+  values:
+    location: ''
+    lang: ''
+    image: ''
+    section: line-up
+    layout: page
     prijs: ''
     partner: ''
     concert date: ''
@@ -79,18 +107,3 @@ exclude:
 - gulpfile.js
 - install.sh
 - lint.yml
-gems:
-- jekyll-multiple-languages-plugin
-languages:
-- nl
-- en
-exclude_from_localizations:
-- scss
-- css
-- img
-- js
-- vendor
-- uploads
-- apple-touch-icon-precomposed.png
-- favicon.ico
-- favicon.png

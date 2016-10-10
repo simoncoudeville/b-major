@@ -3,12 +3,10 @@ title: Programma
 permalink: "/programma/"
 section: line-up
 layout: line-up
-title_en: line-up
-permalink_en: "/line-up/"
+lang: nl
 ---
 
-{% assign concerts=site.concerts | where:"lang", site.lang %}
-{% for concert in concerts %}
+{% for concert in site.nl_concerts %}
   <h2>
     <a href="{{ site.baseurl }}{{ concert.url }}">
         {{ concert.title }}
