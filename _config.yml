@@ -1,28 +1,15 @@
 ---
 title: B Major
 timezone: UTC
-# gems:
-# - jekyll-multiple-languages-plugin
-# languages:
-# - nl
-# - en
-# exclude_from_localizations:
-# - scss
-# - css
-# - img
-# - js
-# - vendor
-# - uploads
-# - apple-touch-icon-precomposed.png
-# - favicon.ico
-# - favicon.png
 collections:
-  nl_concerts:
-    output: true
-    permalink: /programma/:path/
   en_concerts:
+    title: En Concerts
     output: true
-    permalink: /en/line-up/:path/
+    permalink: "/en/line-up/:path/"
+  nl_concerts:
+    title: Nl Concerts
+    output: true
+    permalink: "/programma/:path/"
   posts:
     title: Posts
     output: true
