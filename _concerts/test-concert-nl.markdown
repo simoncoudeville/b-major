@@ -1,8 +1,8 @@
 ---
 title: Test concert nl
-location: 'Magdalenazaal'
-ref: 'test-concert'
-lang: 'nl'
+location: Magdalenazaal
+ref: test-concert
+lang: nl
 image: "/uploads/home-2.jpg"
 section: line-up
 layout: page
