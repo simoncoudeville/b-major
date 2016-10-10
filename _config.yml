@@ -45,9 +45,6 @@ defaults:
   values:
     layout: page
     section: ''
-    title_en: ''
-    permalink_en: ''
-    en_body: ''
 - scope:
     path: ''
     type: nl_concerts
