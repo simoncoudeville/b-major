@@ -41,6 +41,8 @@ defaults:
     section: line-up
     layout: page
     permalink: "/:title/"
+    prijs: ''
+    partner: ''
 - scope:
     path: ''
     type: locations
