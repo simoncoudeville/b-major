@@ -37,7 +37,7 @@ defaults:
     type: nl_concerts
   values:
     location: ''
-    lang: 'nl'
+    lang: nl
     image: ''
     section: line-up
     layout: page
@@ -49,7 +49,7 @@ defaults:
     type: en_concerts
   values:
     location: ''
-    lang: 'en'
+    lang: en
     image: ''
     section: line-up
     layout: page
