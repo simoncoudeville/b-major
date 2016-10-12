@@ -1,13 +1,11 @@
 # ~/Gemfile
 
-source 'https://rubygems.org'
-
-gem 'jekyll'
-
-# group :jekyll_plugins do
-#   gem 'jekyll-multiple-languages-plugin'
-# end
+source "http://rubygems.org"
 
 group :development do
-  gem 'scss_lint'
+    # CSS Preprocessing
+    gem 'scss_lint'
+
+    # Jekyll
+    gem 'jekyll', '~> 3.2', '>= 3.2.1'
 end
