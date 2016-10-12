@@ -80,7 +80,6 @@ exclude:
 - _site
 - scss
 - "*scss"
-# - Gem*
 - Guard*
 - "*rb"
 - ".sass-cache"
