@@ -1,3 +1,18 @@
 submit:
   en: "submit"
   nl: "verzend"
+wednesday:
+  en: "wednesday"
+  nl: "woensdag"
+thursday:
+  en: "thursday"
+  nl: "donderdag"
+friday:
+  en: "friday"
+  nl: "vrijdag"
+saturday:
+  en: "saturday"
+  nl: "zaterdag"
+sunday:
+  en: "sunday"
+  nl: "zondag"

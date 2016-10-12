@@ -43,7 +43,8 @@ defaults:
     layout: page
     prijs: ''
     partner: ''
-    concert_date: ''
+    starts_at: ''
+    ends_at: ''
 - scope:
     path: ''
     type: en_concerts
@@ -55,7 +56,8 @@ defaults:
     layout: page
     prijs: ''
     partner: ''
-    concert_date: ''
+    starts_at: ''
+    ends_at: ''
 - scope:
     path: ''
     type: locations

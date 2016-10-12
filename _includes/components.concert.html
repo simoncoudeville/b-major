@@ -1,0 +1,8 @@
+<h2>
+    <a href="{{ site.baseurl }}{{ concert.url }}">
+        {{ concert.title }}
+    </a>
+</h2>
+<p>
+    {{ concert.starts_at | date: '%H:%M' }} - {{ concert.location }}
+</p>
