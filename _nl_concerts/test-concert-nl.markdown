@@ -5,6 +5,7 @@ lang: nl
 image: "/uploads/home-2.jpg"
 section: line-up
 starts_at: 2017-03-01 20:00:00 Z
+ends_at: 2017-03-01 21:00:00 Z
 ref: test-concert
 layout: page
 ---
