@@ -37,25 +37,25 @@ defaults:
     type: nl_concerts
   values:
     location: ''
-    lang: ''
+    lang: 'nl'
     image: ''
     section: line-up
     layout: page
     prijs: ''
     partner: ''
-    concert date: ''
+    concert_date: ''
 - scope:
     path: ''
     type: en_concerts
   values:
     location: ''
-    lang: ''
+    lang: 'en'
     image: ''
     section: line-up
     layout: page
     prijs: ''
     partner: ''
-    concert date: ''
+    concert_date: ''
 - scope:
     path: ''
     type: locations
