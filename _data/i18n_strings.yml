@@ -1,6 +1,9 @@
 submit:
   en: "submit"
   nl: "verzend"
+price:
+  en: "price"
+  nl: "prijs"
 wednesday:
   en: "wednesday"
   nl: "woensdag"

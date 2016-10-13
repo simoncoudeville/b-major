@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+{% assign language = page.lang %}
+{% assign t = site.data.i18n_strings %}
+
+{% assign location = site.nl_locations | where: 'title', page.nl_location %}
+
 {% include generic.head.html %}
 
-<body{% if page.section %} class="c-{{ page.section }}"{% endif%}>
+<body>
 
     <!-- Deprecated browser alert -->
     {% include components.browser-alert.html %}
@@ -18,7 +23,13 @@
             <div class="o-grid o-grid--gutter">
                 <div class="o-grid__item">
                     <h1>{{ page.title }}</h1>
+                    <p>
+                        {{ page.starts_at | date: '%H:%M' }} - {{ page.ends_at | date: '%H:%M' }} - <a href="{{ location[0].url }}">{{ page.nl_location }}</a>
+                    </p>
                     {{ content }}
+                    <p>
+                        {{ t['price'][language] }}: €{{ page.price }}
+                    </p>
                 </div>
             </div>
         </div>

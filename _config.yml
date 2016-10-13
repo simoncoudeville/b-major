@@ -70,6 +70,7 @@ defaults:
   values:
     layout: page
     image: ''
+    section: locations
 permalink: pretty
 navigation:
 - section: about
