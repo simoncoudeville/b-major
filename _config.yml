@@ -19,6 +19,9 @@ collections:
   locations:
     title: locations
     output: true
+  partners:
+    title: partners
+    output: true
 defaults:
 - scope:
     path: ''
