@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+{% assign language = page.lang %}
+{% assign t = site.data.i18n_strings %}
+{% assign concerts = (site.nl_concerts | sort: 'starts_at')  %}
+
+{% include generic.head.html %}
+
+<body{% if page.section %} class="c-{{ page.section }}"{% endif%}>
+
+    <!-- Deprecated browser alert -->
+    {% include components.browser-alert.html %}
+    <!-- End deprecated browser alert -->
+
+    <!-- Page header -->
+    {% include components.header.html %}
+    <!-- End page header -->
+
+    <div class="c-row c-row--alpha">
+        <div class="o-container">
+            <div class="o-grid o-grid--gutter">
+                <div class="o-grid__item">
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                    {% for concert in concerts %}
+                        {% capture location %}{{ concert.nl_location }}{% endcapture %}
+                        {% if location == page.title %}
+                            {% include components.concert.html %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page footer -->
+    {% include components.footer.html %}
+    <!-- End page footer -->
+
+    <!-- Footer javascript -->
+    {% include generic.javascript.html %}
+    <!-- End footer javascript -->
+
+</body>
+</html>

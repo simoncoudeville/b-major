@@ -5,6 +5,7 @@ address: Magdalenastraat 27
 image: "/uploads/home-3.jpg"
 layout: page
 section: locations
+layout: location
 ---
 
 lorem ipsum
