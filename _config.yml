@@ -10,6 +10,9 @@ collections:
     title: NL Concerts
     output: true
     permalink: "/programma/:path/"
+  nl_partners:
+    title: NL partners
+    output: false
   posts:
     title: Posts
     output: true
@@ -19,9 +22,6 @@ collections:
   locations:
     title: locations
     output: true
-  nl-partners:
-    title: partners
-    output: false
 defaults:
 - scope:
     path: ''
