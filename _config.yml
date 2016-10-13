@@ -19,9 +19,9 @@ collections:
   locations:
     title: locations
     output: true
-  partners:
+  nl-partners:
     title: partners
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
