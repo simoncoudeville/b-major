@@ -13,6 +13,7 @@ collections:
   nl_locations:
     title: nl_locations
     output: true
+    permalink: "/locaties/:path/"
   nl_partners:
     title: nl_partners
     output: false
@@ -44,7 +45,7 @@ defaults:
     lang: nl
     image: ''
     section: line-up
-    layout: page
+    layout: concert
     price: ''
     ticket URL: ''
     starts_at: ''
@@ -58,14 +59,14 @@ defaults:
     lang: en
     image: ''
     section: line-up
-    layout: page
+    layout: concert
     price: ''
     ticket URL: ''
     starts_at: ''
     ends_at: ''
 - scope:
     path: ''
-    type: locations
+    type: nl_locations
   values:
     layout: page
     image: ''
@@ -81,6 +82,11 @@ navigation:
   title_en: line-up
   url: "/programma"
   url_en: "/en/line-up"
+- section: locations
+  title: locaties
+  title_en: locations
+  url: "/locaties"
+  url_en: "/en/locations"
 exclude:
 - _site
 - scss
