@@ -3,18 +3,18 @@ title: B Major
 timezone: UTC
 collections:
   en_concerts:
-    title: EN Concerts
+    title: en_concerts
     output: true
     permalink: "/en/line-up/:path/"
   nl_concerts:
-    title: NL Concerts
+    title: nl_concerts
     output: true
     permalink: "/programma/:path/"
   nl_locations:
-    title: NL locations
+    title: nl_locations
     output: true
   nl_partners:
-    title: NL partners
+    title: nl_partners
     output: false
   posts:
     title: Posts
@@ -39,8 +39,8 @@ defaults:
     path: ''
     type: nl_concerts
   values:
-    NL location: ''
-    NL partner: ''
+    nl_location: ''
+    nl_partner: ''
     lang: nl
     image: ''
     section: line-up
@@ -53,8 +53,8 @@ defaults:
     path: ''
     type: en_concerts
   values:
-    EN location: ''
-    EN partner: ''
+    en_location: ''
+    en_partner: ''
     lang: en
     image: ''
     section: line-up

@@ -1,8 +1,8 @@
 ---
 title: Test concert 1
 date: 2016-10-13 19:27:00 Z
-NL location: Magdalenazaal
-NL partner: Cactus
+nl_location: Magdalenazaal
+nl_partner: Cactus
 price: 35
 starts_at: 2017-03-01 18:00:00 Z
 ends_at: 2017-03-01 19:30:00 Z
