@@ -71,6 +71,7 @@ module.exports = {
             path + '_data/*.yml',
             path + '**/*.html',
             path + '**/*.md',
+            path + '**/*.markdown',
             path + '_config.yml',
             '!' + path + '_site/**/*.*'
         ]
