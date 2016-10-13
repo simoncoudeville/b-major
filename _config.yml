@@ -2,6 +2,12 @@
 title: B Major
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
   en_concerts:
     title: en_concerts
     output: true
@@ -16,12 +22,6 @@ collections:
   nl_partners:
     title: nl_partners
     output: false
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
