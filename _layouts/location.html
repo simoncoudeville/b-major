@@ -3,7 +3,7 @@
 
 {% assign language = page.lang %}
 {% assign t = site.data.i18n_strings %}
-{% assign concerts = (site.nl_concerts | sort: 'starts_at')  %}
+{% assign concerts = (site.nl_concerts | where: "nl_location" , page.title | sort: 'starts_at')  %}
 
 {% include generic.head.html %}
 
@@ -24,10 +24,7 @@
                     <h1>{{ page.title }}</h1>
                     {{ content }}
                     {% for concert in concerts %}
-                        {% capture location %}{{ concert.nl_location }}{% endcapture %}
-                        {% if location == page.title %}
-                            {% include components.concert.html %}
-                        {% endif %}
+                        {% include components.concert.html %}
                     {% endfor %}
                 </div>
             </div>
