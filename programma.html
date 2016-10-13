@@ -16,7 +16,7 @@ lang: nl
 {% for concert in concerts %}
   {% capture day %}{{ concert.starts_at | date: "%d" }}{% endcapture %}
   {% if day == "01" %}
-  {% include components.concert.html %}
+    {% include components.concert.html %}
   {% endif %}
 {% endfor %}
 <hr>
@@ -26,6 +26,6 @@ lang: nl
 {% for concert in concerts %}
   {% capture day %}{{ concert.starts_at | date: "%d" }}{% endcapture %}
   {% if day == "02" %}
-  {% include components.concert.html %}
+    {% include components.concert.html %}
   {% endif %}
 {% endfor %}

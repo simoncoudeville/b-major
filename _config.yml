@@ -19,8 +19,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-  locations:
-    title: locations
+  nl_locations:
+    title: NL locations
     output: true
 defaults:
 - scope:
@@ -39,26 +39,28 @@ defaults:
     path: ''
     type: nl_concerts
   values:
-    location: ''
+    NL location: ''
+    NL partner: ''
     lang: nl
     image: ''
     section: line-up
     layout: page
-    prijs: ''
-    partner: ''
+    price: ''
+    ticket URL: ''
     starts_at: ''
     ends_at: ''
 - scope:
     path: ''
     type: en_concerts
   values:
-    location: ''
+    EN location: ''
+    EN partner: ''
     lang: en
     image: ''
     section: line-up
     layout: page
-    prijs: ''
-    partner: ''
+    price: ''
+    ticket URL: ''
     starts_at: ''
     ends_at: ''
 - scope:
