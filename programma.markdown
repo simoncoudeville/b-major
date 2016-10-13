@@ -1,0 +1,31 @@
+---
+title: Programma
+permalink: "/programma/"
+section: line-up
+layout: line-up
+lang: nl
+---
+
+{% assign language = page.lang %}
+{% assign t = site.data.i18n_strings %}
+{% assign concerts = (site.nl_concerts | sort: 'starts_at')  %}
+
+<p>
+  {{ t['wednesday'][language] }}
+</p>
+{% for concert in concerts %}
+  {% capture day %}{{ concert.starts_at | date: "%d" }}{% endcapture %}
+  {% if day == "01" %}
+  {% include components.concert.html %}
+  {% endif %}
+{% endfor %}
+<hr>
+<p>
+  {{ t['thursday'][language] }}
+</p>
+{% for concert in concerts %}
+  {% capture day %}{{ concert.starts_at | date: "%d" }}{% endcapture %}
+  {% if day == "02" %}
+  {% include components.concert.html %}
+  {% endif %}
+{% endfor %}

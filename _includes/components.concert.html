@@ -4,5 +4,5 @@
     </a>
 </h2>
 <p>
-    {{ concert.starts_at | date: '%H:%M' }} - {{ concert.location }}
+    {{ concert.starts_at | date: '%H:%M' }} - {{ concert.ends_at | date: '%H:%M' }} - {{ concert.location }}
 </p>
