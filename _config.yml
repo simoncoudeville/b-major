@@ -71,6 +71,7 @@ defaults:
     layout: page
     image: ''
     section: locations
+    lang: nl
 permalink: pretty
 navigation:
 - section: about
