@@ -91,6 +91,7 @@ navigation:
 exclude:
 - _site
 - scss
+- Gemfile.lock
 - "*scss"
 - Guard*
 - "*rb"
